@@ -901,7 +901,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ballRigidBody: {fileID: 1279890405}
-  ballSpeed: 2
+  ballCollider: {fileID: 1279890406}
+  rollSpeed: 2
+  jumpForce: 20
 --- !u!114 &1279890411
 MonoBehaviour:
   m_ObjectHideFlags: 0

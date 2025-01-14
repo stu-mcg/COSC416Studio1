@@ -6,7 +6,7 @@ public class BallController : MonoBehaviour
     [SerializeField] private Rigidbody ballRigidBody;
     [SerializeField] private Collider ballCollider;
     [SerializeField] private float rollSpeed = 2f;
-    [SerializeField] private float jumpForce = 20f;
+    [SerializeField] private float jumpForce = 30f;
     private float distToGround;
 
     void Start(){
